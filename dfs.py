@@ -1,20 +1,20 @@
-# adj_list = { #directed graph
-#     "A" : ["B", "C"],
-#     "B" : ["D", "E"],
-#     "C" : ["B", "F"],
-#     "D" : [],
-#     "E" : ["F"],
-#     "F" : []
-# }
-
-adj_list = { #undirected graph
-    "A" : ["B"],
+adj_list = {            #directed graph
+    "A" : ["B", "C"],
     "B" : ["D", "E"],
-    "C" : ["F"],
-    "D" : ["B"],
-    "E" : ["B"],
-    "F" : ["C"]
+    "C" : ["B", "F"],
+    "D" : [],
+    "E" : ["F"],
+    "F" : []
 }
+
+# adj_list = { #undirected graph
+#     "A" : ["B"],
+#     "B" : ["D", "E"],
+#     "C" : ["F"],
+#     "D" : ["B"],
+#     "E" : ["B"],
+#     "F" : ["C"]
+# }
 
 
 color = {} #W, G, B
