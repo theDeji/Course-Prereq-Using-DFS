@@ -1,3 +1,6 @@
+#program to find the order in which courses are to be taken
+##base on the prerequisites
+
 course = {
     'CSC300' : ['CSC100', 'CSC105', 'CSC200'],
     'CSC200' : ['CSC100', 'CSC105'],
